@@ -157,7 +157,7 @@ El objetivo de esta práctica es documentar y utilizar las principales herramien
 
 ---
 
-## 3. Análisis de resultados
+## 6. Análisis de resultados
 
 **1. ¿Cómo comprobarías la cantidad de memoria RAM disponible?**
 Utilizando el comando `free -h`. El valor disponible real para iniciar nuevas aplicaciones se encuentra en la columna "available". También se puede ver de forma dinámica abriendo `htop` o `top`.
