@@ -108,7 +108,7 @@ El objetivo de esta práctica es documentar y utilizar las principales herramien
   * `-i`: Especifica la interfaz a monitorizar.
   * `port 80`: (opcional al final) Filtra para ver solo tráfico HTTP.
 * **Captura de pantalla:**
-  ![tcptrack](capturas/tcptrack.png)
+  <img src="capturas/tcptrack.png" width="500">
 * **Interpretación:** Muestra las conexiones activas, su estado (ESTABLISHED, TIME_WAIT) y la velocidad en bytes por segundo. Útil para ver quién está consumiendo el ancho de banda.
 
 ### iptraf (iptraf-ng)
