@@ -163,21 +163,26 @@ El objetivo de esta práctica es documentar y utilizar las principales herramien
 
 Utilizando el comando `free -h`. El valor disponible real para iniciar nuevas aplicaciones se encuentra en la columna "available". También se puede ver de forma dinámica abriendo `htop` o `top`.
 
+
 **2. ¿Qué diferencia existe entre df y du?**
 
 `df` se utiliza para ver el espacio total, usado y disponible a nivel de *sistemas de archivos o particiones enteras* (ej. cuánto espacio le queda al disco duro). `du` se utiliza para calcular cuánto espacio en disco consume un *archivo o directorio específico* (ej. cuánto pesa la carpeta de usuario).
+
 
 **3. ¿Qué diferencias existen entre ss y nmap?**
 
 `ss` es una herramienta de consulta local; pregunta al propio sistema operativo qué puertos tiene abiertos y qué conexiones activas posee. `nmap` es una herramienta de escaneo de red que funciona enviando paquetes desde fuera hacia una IP (puede ser remota) para inferir qué puertos están abiertos basándose en la respuesta, actuando como un auditor externo.
 
+
 **4. ¿Cómo comprobarías si un servidor tiene abierto el puerto 80?**
 
 Si estoy dentro del propio servidor, usaría: `ss -tuln | grep :80`. Si lo quiero comprobar desde otro equipo en la red (para asegurar que el firewall no lo bloquea), usaría: `nmap -p 80 <IP_del_servidor>`.
 
+
 **5. ¿Qué herramienta utilizarías para detectar un posible cuello de botella en el disco?**
 
 Utilizaría `iostat -x 2` para observar el porcentaje de tiempo de inactividad de la CPU debido a esperas de disco (`%iowait`) y el grado de utilización del propio disco (`%util`). Otra excelente opción es utilizar `atop` que resalta en rojo los discos saturados.
+
 
 **6. ¿Por qué es importante monitorizar los recursos de un servidor?**
 
