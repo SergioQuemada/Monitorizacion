@@ -70,7 +70,7 @@ El objetivo de esta práctica es documentar y utilizar las principales herramien
 
 ### du
 * **Nombre y finalidad:** `du` (Disk Usage) estima el espacio que ocupa un archivo o directorio específico.
-* **Sintaxis:** `du -sh /var/log`
+* **Sintaxis:** ` sudo du -sh /var/log`
   * `-s`: Muestra solo el total resumido del directorio indicado.
   * `-h`: Formato legible (KB, MB, GB).
 * **Captura de pantalla:**
