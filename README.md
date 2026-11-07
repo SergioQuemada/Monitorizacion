@@ -65,6 +65,7 @@ El objetivo de esta práctica es documentar y utilizar las principales herramien
   * `-h`: Formato legible para humanos (GB, MB).
   * `-T`: Imprime el tipo de sistema de archivos (ext4, tmpfs, etc.).
 * **Captura de pantalla:**
+  
   ![df](capturas/df.png)
 * **Interpretación:** Muestra qué porcentaje de cada disco o partición está lleno. Vital para evitar que un servidor se caiga por falta de espacio en disco.
 
@@ -74,6 +75,7 @@ El objetivo de esta práctica es documentar y utilizar las principales herramien
   * `-s`: Muestra solo el total resumido del directorio indicado.
   * `-h`: Formato legible (KB, MB, GB).
 * **Captura de pantalla:**
+  
   ![du](capturas/du.png)
 * **Interpretación:** Permite localizar qué carpetas exactas están consumiendo el almacenamiento (por ejemplo, para limpiar logs antiguos).
 
